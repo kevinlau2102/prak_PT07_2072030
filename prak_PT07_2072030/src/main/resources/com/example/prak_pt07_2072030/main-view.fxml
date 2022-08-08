@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="com.example.prak_pt07_2072030.MainController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <TextArea fx:id="isiFile" prefHeight="471.0" prefWidth="0.0" />
+   <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+      <children>
+         <Button onAction="#openFile" alignment="CENTER_RIGHT" mnemonicParsing="false" text="Open" />
+         <Button onAction="#saveAsFile" alignment="CENTER_RIGHT" mnemonicParsing="false" text="Save As" />
+         <Button onAction="#save" alignment="CENTER_RIGHT" mnemonicParsing="false" text="Save" />
+      </children>
+   </HBox>
+</VBox>
